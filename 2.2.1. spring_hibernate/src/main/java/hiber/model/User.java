@@ -25,6 +25,10 @@ public class User {
     @MapsId
     private Car car;
 
+    public User() {
+
+    }
+
     public Car getCar() {
         return car;
     }
@@ -33,7 +37,7 @@ public class User {
         this.car = car;
     }
 
-    public User() {
+    public User(String john, String conor, String s) {
     }
 
     public User(String firstName, String lastName, String email, Car car) {
